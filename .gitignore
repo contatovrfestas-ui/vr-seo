@@ -1,13 +1,52 @@
+# === Node.js (legado) ===
 node_modules/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# === Secrets ===
 .env
+google-tokens.json
+
+# === Data ===
+data/memory.db
+data/conversations/*
+!data/conversations/.gitkeep
 output/*
 !output/.gitkeep
+
+# === Logs ===
 *.log
+
+# === OS ===
 .DS_Store
 Thumbs.db
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Testing ===
 coverage/
 .nyc_output/
+htmlcov/
+.pytest_cache/
+.coverage
+
+# === Build ===
 dist/
+build/
+
+# === Other ===
 ~/.vr-seo/
-google-tokens.json
 .lighthouse/
