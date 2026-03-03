@@ -1,0 +1,13 @@
+node_modules/
+.env
+output/*
+!output/.gitkeep
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+.nyc_output/
+dist/
+~/.vr-seo/
+google-tokens.json
+.lighthouse/
